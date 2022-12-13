@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TemperatureControl.Properties
+namespace HeaterTemperatureControl.Properties
 {
 
 

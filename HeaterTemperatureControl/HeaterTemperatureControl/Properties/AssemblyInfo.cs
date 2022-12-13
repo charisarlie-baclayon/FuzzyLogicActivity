@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TemperatureControl")]
+[assembly: AssemblyTitle("HeaterTemperatureControl")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TemperatureControl")]
+[assembly: AssemblyProduct("HeaterTemperatureControl")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("62198b65-f82b-4749-bee9-7b9181ac3424")]
+[assembly: Guid("f5f48e3f-27cb-4491-b0cf-7ef53efef626")]
 
 // Version information for an assembly consists of the following four values:
 //

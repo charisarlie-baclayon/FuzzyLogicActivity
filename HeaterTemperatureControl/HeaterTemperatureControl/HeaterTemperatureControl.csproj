@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{62198B65-F82B-4749-BEE9-7B9181AC3424}</ProjectGuid>
+    <ProjectGuid>{F5F48E3F-27CB-4491-B0CF-7EF53EFEF626}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TemperatureControl</RootNamespace>
-    <AssemblyName>TemperatureControl</AssemblyName>
+    <RootNamespace>HeaterTemperatureControl</RootNamespace>
+    <AssemblyName>HeaterTemperatureControl</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -49,15 +49,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fuzzy\FuzzyEngine.cs" />
-    <Compile Include="Fuzzy\FuzzyRule.cs" />
-    <Compile Include="Fuzzy\FuzzyRuleCollection.cs" />
-    <Compile Include="Fuzzy\LinguisticVariable.cs" />
-    <Compile Include="Fuzzy\LinguisticVariableCollection.cs" />
-    <Compile Include="Fuzzy\MembershipFunction.cs" />
-    <Compile Include="Fuzzy\MembershipFunctionCollection.cs" />
+    <Compile Include="FuzzyLogic\FuzzyEngine.cs" />
+    <Compile Include="FuzzyLogic\FuzzyRule.cs" />
+    <Compile Include="FuzzyLogic\FuzzyRuleCollection.cs" />
+    <Compile Include="FuzzyLogic\LinguisticVariable.cs" />
+    <Compile Include="FuzzyLogic\LinguisticVariableCollection.cs" />
+    <Compile Include="FuzzyLogic\MembershipFunction.cs" />
+    <Compile Include="FuzzyLogic\MembershipFunctionCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
